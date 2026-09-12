@@ -1,4 +1,6 @@
 import Nav from './components/Nav'
+import Banner from './components/banner'
+
 
 function App() {
   
@@ -6,6 +8,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Banner />
     </>
   )
 }

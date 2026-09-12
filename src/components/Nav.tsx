@@ -2,9 +2,8 @@ import logo from '../assets/logo-text.png'
 
 const Nav = () => {
     return (
-        <nav className="flex justify-between items-center p-4">
+        <nav className="flex justify-between items-center p-4 mx-auto max-w-7xl position: sticky">
         <img src={logo} alt="Logo" />
-
         <ul className="flex gap-4">
           <li>Home</li>
           <li> Technologies </li>
