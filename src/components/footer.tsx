@@ -17,7 +17,7 @@ const Footer = () => {
               className="h-9 w-auto rounded bg-white px-2 py-1"
             />
 
-            <p className="mt-5 max-w-sm text-sm leading-6 text-slate-500">
+            <p className="mt-5 max-w-sm text-sm leading-6 text-slate-400">
               Curated tools, technologies and resources for developers building modern softwares. </p>
 
             {/* Social Links */}
@@ -29,7 +29,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-400 transition hover:border-[#EB388C] hover:bg-[#EB388C] hover:text-white"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-500 transition hover:border-[#EB388C] hover:bg-[#EB388C] hover:text-white"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -46,7 +46,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Twitter"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-700 transition hover:border-[#EB388C] hover:bg-[#EB388C] hover:text-white"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-500 transition hover:border-[#EB388C] hover:bg-[#EB388C] hover:text-white"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const Footer = () => {
               Product
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm text-slate-500">
+            <ul className="mt-5 space-y-3 text-sm text-slate-400">
               <li>
                 <a href="#" className="transition hover:text-[#EB388C]">
                   Home
@@ -110,7 +110,7 @@ const Footer = () => {
               Company
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm text-slate-500">
+            <ul className="mt-5 space-y-3 text-sm text-slate-400">
               <li>
                 <a href="#" className="transition hover:text-[#EB388C]">
                   About
@@ -137,7 +137,7 @@ const Footer = () => {
               Legal
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm text-slate-500">
+            <ul className="mt-5 space-y-3 text-sm text-slate-400">
               <li>
                 <a href="#" className="transition hover:text-[#EB388C]">
                   Privacy Policy
