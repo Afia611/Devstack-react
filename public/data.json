@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A popular JavaScript library for building fast, reusable, and interactive user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "A progressive JavaScript framework designed for building modern and flexible web interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Easy to Learn"
+  },
+  {
+    "id": 3,
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "A React framework for building production-ready web applications with routing, SSR, and full-stack features.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Full Stack"
+  },
+  {
+    "id": 4,
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime used to build fast and scalable server-side applications and APIs.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": 5,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source relational database known for reliability, scalability, and advanced SQL features.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Reliable"
+  },
+  {
+    "id": 6,
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A flexible NoSQL database that stores data in JSON-like documents and works well with modern applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "rating": 4.6,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Flexible"
+  },
+  {
+    "id": 7,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed superset of JavaScript that improves code quality, maintainability, and developer productivity.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": 8,
+    "name": "Python",
+    "category": "Language",
+    "description": "A versatile programming language widely used for backend development, automation, data science, and AI.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 9,
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for quickly building responsive and highly customizable user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Modern"
+  },
+  {
+    "id": 10,
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A containerization platform that packages applications and their dependencies into portable containers.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Containers"
+  },
+  {
+    "id": 11,
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "A container orchestration platform used to deploy, scale, and manage containerized applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Scalable"
+  },
+  {
+    "id": 12,
+    "name": "Git",
+    "category": "Tools",
+    "description": "A distributed version control system used to track code changes and collaborate effectively with development teams.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  }
+]
