@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="mx-auto max-w-7xl px-6 py-14">
 
         {/* Main Footer */}
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] lg:gap-x-8">
 
           {/* Brand Section */}
 
@@ -23,7 +23,6 @@ const Footer = () => {
         </div>
         
         </div>
-          
 
           {/* Product */}
           <div>

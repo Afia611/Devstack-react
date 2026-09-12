@@ -1,75 +1,72 @@
-# React + TypeScript + Vite
+# 🚀 DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevStack is a responsive React web application that helps developers explore popular technologies and build their own ideal development stack.
 
-Currently, two official plugins are available:
+Users can browse technologies from categories such as Frontend, Backend, Database, Language, Styling, DevOps, and Tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- JSON
+- Git & GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 1. Build Your Own Technology Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Users can explore different technologies and add their preferred technologies to the **Your Stack** section.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Once a technology is added, the button changes to:
 
-```
+`✓ Added to Stack`
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+and becomes disabled.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 2. Add and Remove Technologies
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Users can:
 
-```
+- Add technologies to their stack
+- Remove an individual technology
+- Remove all technologies at once
+- Prevent duplicate technologies from being added
+- Receive notifications using React Toastify
+
+### 3. Fully Responsive Design
+
+DevStack is fully responsive for:
+
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop screens
+
+The application includes a responsive navbar, banner, technology card section, stack panel, and footer.
+
+---
+
+## 🎨 Brand Theme
+
+DevStack uses a shared gradient theme:
+
+**Orange → Pink → Violet**
+
+The gradient is used for the brand, highlighted text, and primary buttons.
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Afia611/Devstack-react.git
